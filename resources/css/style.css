@@ -139,16 +139,13 @@ li{
   margin-top: 3rem;
 }
 
-.philosophy{
-  margin-right: 5%;
-}
-
 .philosophy, .appointments {
     width: 35%;
     font-family: Helvetica, sans-serif;
     font-size: 1rem;
     margin-bottom: 5rem;
     line-height: 1.4;
+    margin-left: 5%;
 }
 
 .wordtitle{
@@ -165,4 +162,25 @@ li{
 .foot{
   display: flex;
   align-items: center;
+}
+
+ @media only screen and (max-width: 1020px){
+   .container{
+     width: 100%;
+   }
+
+  header{
+    height: 22rem;
+  }
+
+  .catch{
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
 }
