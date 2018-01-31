@@ -164,7 +164,7 @@ li{
   align-items: center;
 }
 
- @media only screen and (max-width: 1020px){
+ @media only screen and (max-width: 1000px){
    .container{
      width: 100%;
    }
@@ -187,6 +187,45 @@ li{
   }
 }
 
-@media only screen and (max-width: 640px) {
+/* @media only screen and (max-width: 800px) {
+    .det{
+      font-family: Helvetica;
+      font-size: 0.77rem;
+    }
 
-}
+    .feature{
+      flex-direction: column;
+    }
+
+    .words{
+      flex-direction: column;
+    }
+
+    .wordtitle {
+      width: 100%;
+      text-align: center;
+    }
+
+    .philosophy {
+      margin-top: 3.77rem;
+    }
+
+    .philosophy, .appointments {
+      margin-bottom: 4rem;
+    }
+
+    .par{
+      font-family: Helvetica, sans-serif;
+      font-size: 0.77rem;
+      margin-top: 1rem;
+    }
+
+    .foot span{
+      display: none;
+    }
+
+    .foot img {
+      margin: auto;
+    }
+
+} */
