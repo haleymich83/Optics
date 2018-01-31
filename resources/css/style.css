@@ -214,6 +214,8 @@ li{
     .catch{
       margin-top: 9rem;
       text-align: center;
+      padding: 0px;
+      margin-right: 0px;
     }
 
     .catch span{
