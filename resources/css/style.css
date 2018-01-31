@@ -225,12 +225,6 @@ li{
       font-size: 1rem;
     }
 
-    /*.supporting{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }*/
-
     .det{
       font-family: Helvetica;
       font-size: 0.77rem;
@@ -238,6 +232,23 @@ li{
 
     .feature{
       flex-direction: column;
+      align-items: center;
+    }
+
+    .fittings, .delivery {
+      margin: 0;
+    }
+
+    .exams {
+      padding-bottom: 1.54rem;
+    }
+
+    .exams{
+      margin: 3.77rem 0 0 0;
+    }
+
+    .exams img {
+      padding-left: 0.5rem;
     }
 
     .words{
@@ -247,10 +258,6 @@ li{
     .wordtitle {
       text-align: center;
       max-width: 100%;
-    }
-
-    .philosophy {
-      margin-top: 3.77rem;
     }
 
     .philosophy, .appointments {
