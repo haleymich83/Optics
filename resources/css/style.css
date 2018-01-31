@@ -155,7 +155,7 @@ li{
   padding-left: 1.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  width: 10rem;
+  max-width: 10rem;
   margin-bottom: 1rem;
 }
 
@@ -164,14 +164,20 @@ li{
   align-items: center;
 }
 
- @media only screen and (max-width: 1000px){
+@media only screen and (min-width: 670px){
+  .menu{
+    display: none;
+  }
+}
+
+ @media only screen and (max-width: 1020px){
    .container{
      width: 100%;
    }
 
    nav{
      margin: 0;
-     width: 100%;
+     max-width: 100%;
      margin-top: -1rem;
    }
 
@@ -187,7 +193,42 @@ li{
   }
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 670px) {
+  .container{
+    width: 100%;
+  }
+
+    header{
+        height: 17rem;
+        background-position: 20%;
+    }
+
+    .logo span{
+      display: none;
+    }
+
+    .nomen {
+      display: none;
+    }
+
+    .catch{
+      margin-top: 9rem;
+      text-align: center;
+    }
+
+    .catch span{
+      max-width: 100%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    /*.supporting{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }*/
+
     .det{
       font-family: Helvetica;
       font-size: 0.77rem;
@@ -199,10 +240,10 @@ li{
 
     .words{
       flex-direction: column;
+      margin-right: 3rem;
     }
 
     .wordtitle {
-      width: 100%;
       text-align: center;
     }
 
@@ -212,6 +253,7 @@ li{
 
     .philosophy, .appointments {
       margin-bottom: 4rem;
+      width: 100%;
     }
 
     .par{
@@ -224,8 +266,8 @@ li{
       display: none;
     }
 
-    .foot img {
-      margin: auto;
+    footer img {
+      margin: 4rem auto;
     }
 
-} */
+}
